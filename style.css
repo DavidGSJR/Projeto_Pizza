@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: font_pizza;
+    src: url("CHEESEPIZZA.ttf");
+    
+}
+@font-face{
+    font-family: font2;
+    src: url("tomatos_pizza.ttf");
+}
+@font-face{
+    font-family: font3;
+    src: url("panpizza.ttf");
+}
+header{
+    height: 500px;
+    background-image: url(img_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav ul{
+    height: 120px;
+    width: 100%;    
+    display: flex;
+    color: #379237;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li{
+    font-family: font_pizza;
+    font-size: 30px;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    font-family: font2;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    font-family: font3;
+    font-size: 100px;
+}
